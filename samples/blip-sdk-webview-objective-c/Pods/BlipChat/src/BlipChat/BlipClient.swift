@@ -29,8 +29,8 @@ import UIKit
             throw error
         }
         
-        //Send values to Controller asdasads
-        let storyboard = UIStoryboard(name: "Storyboard", bundle: Bundle.module)
+        //Send values to Controller
+        let storyboard = UIStoryboard(name: "Storyboard", bundle: Bundle(for: self))
         let viewController = storyboard.instantiateViewController(withIdentifier: "ThreadViewController") as! ThreadViewController
         viewController.appKey = appKey
         viewController.options = options
