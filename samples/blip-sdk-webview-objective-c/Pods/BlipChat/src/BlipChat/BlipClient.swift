@@ -29,7 +29,7 @@ import UIKit
             throw error
         }
         
-        //Send values to Controller
+        //Send values to Controller asdasads
         let storyboard = UIStoryboard(name: "Storyboard", bundle: Bundle.module)
         let viewController = storyboard.instantiateViewController(withIdentifier: "ThreadViewController") as! ThreadViewController
         viewController.appKey = appKey
