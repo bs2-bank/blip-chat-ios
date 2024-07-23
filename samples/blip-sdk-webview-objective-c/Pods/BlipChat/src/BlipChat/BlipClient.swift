@@ -30,7 +30,7 @@ import UIKit
         }
         
         //Send values to Controller
-        let storyboard = UIStoryboard(name: "Storyboard", bundle: Bundle(for: self))
+        let storyboard = UIStoryboard(name: "Storyboard", bundle: Bundle.module)
         let viewController = storyboard.instantiateViewController(withIdentifier: "ThreadViewController") as! ThreadViewController
         viewController.appKey = appKey
         viewController.options = options
