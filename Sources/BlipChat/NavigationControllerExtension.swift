@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 extension UINavigationController {
     
     override open var shouldAutorotate: Bool {
