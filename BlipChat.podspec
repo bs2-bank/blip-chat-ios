@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target  = "10.0"
 
-  s.source       = { :path  => "./src"}
+  s.source       = { :path  => "./Sources"}
   s.source_files = "Sources/BlipChat/*.swift", "Sources/BlipChat/*.storyboard"
   s.resource_bundles = {
     "BlipChat" => ["Sources/BlipChat/*.xcassets", "Sources/BlipChat/*.html"]
